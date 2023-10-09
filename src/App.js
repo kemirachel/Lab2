@@ -30,6 +30,9 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
+ 
+      {/*added some routing linka here */}
+
 <Routes>
   <Route path='/' element={<Content></Content>}></Route>
   <Route path='/read' element={<Header></Header>}></Route>
